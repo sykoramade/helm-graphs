@@ -1,0 +1,2209 @@
+{
+  "version": "v1",
+  "generatedAt": "2026-04-24T07:55:40.642Z",
+  "target": "../local_pdf_tool/app/lib/pdf",
+  "symbols": [
+    {
+      "id": "annotate.ts#HIGHLIGHT_COLORS",
+      "name": "HIGHLIGHT_COLORS",
+      "kind": "const",
+      "exported": false,
+      "path": "annotate.ts",
+      "startLine": 16,
+      "endLine": 20
+    },
+    {
+      "id": "annotate.ts#HIGHLIGHT_OPACITY",
+      "name": "HIGHLIGHT_OPACITY",
+      "kind": "const",
+      "exported": false,
+      "path": "annotate.ts",
+      "startLine": 22,
+      "endLine": 22
+    },
+    {
+      "id": "annotate.ts#STICKY_BG",
+      "name": "STICKY_BG",
+      "kind": "const",
+      "exported": false,
+      "path": "annotate.ts",
+      "startLine": 23,
+      "endLine": 23
+    },
+    {
+      "id": "annotate.ts#STICKY_TEXT_COLOR",
+      "name": "STICKY_TEXT_COLOR",
+      "kind": "const",
+      "exported": false,
+      "path": "annotate.ts",
+      "startLine": 24,
+      "endLine": 24
+    },
+    {
+      "id": "annotate.ts#applyAnnotations",
+      "name": "applyAnnotations",
+      "kind": "function",
+      "exported": true,
+      "path": "annotate.ts",
+      "startLine": 26,
+      "endLine": 116
+    },
+    {
+      "id": "canvas-save.ts#hexToRgb",
+      "name": "hexToRgb",
+      "kind": "function",
+      "exported": false,
+      "path": "canvas-save.ts",
+      "startLine": 15,
+      "endLine": 22
+    },
+    {
+      "id": "canvas-save.ts#applyCanvasEditsAndSave",
+      "name": "applyCanvasEditsAndSave",
+      "kind": "function",
+      "exported": true,
+      "path": "canvas-save.ts",
+      "startLine": 24,
+      "endLine": 87
+    },
+    {
+      "id": "compress.ts#CompressResult",
+      "name": "CompressResult",
+      "kind": "interface",
+      "exported": true,
+      "path": "compress.ts",
+      "startLine": 13,
+      "endLine": 18
+    },
+    {
+      "id": "compress.ts#compressPdf",
+      "name": "compressPdf",
+      "kind": "function",
+      "exported": true,
+      "path": "compress.ts",
+      "startLine": 20,
+      "endLine": 39
+    },
+    {
+      "id": "compress.ts#formatBytes",
+      "name": "formatBytes",
+      "kind": "function",
+      "exported": true,
+      "path": "compress.ts",
+      "startLine": 41,
+      "endLine": 45
+    },
+    {
+      "id": "coords.ts#canvasToPdfX",
+      "name": "canvasToPdfX",
+      "kind": "function",
+      "exported": true,
+      "path": "coords.ts",
+      "startLine": 39,
+      "endLine": 41
+    },
+    {
+      "id": "coords.ts#canvasToPdfY",
+      "name": "canvasToPdfY",
+      "kind": "function",
+      "exported": true,
+      "path": "coords.ts",
+      "startLine": 56,
+      "endLine": 64
+    },
+    {
+      "id": "coords.ts#pdfToCanvasX",
+      "name": "pdfToCanvasX",
+      "kind": "function",
+      "exported": true,
+      "path": "coords.ts",
+      "startLine": 69,
+      "endLine": 71
+    },
+    {
+      "id": "coords.ts#pdfToCanvasY",
+      "name": "pdfToCanvasY",
+      "kind": "function",
+      "exported": true,
+      "path": "coords.ts",
+      "startLine": 77,
+      "endLine": 79
+    },
+    {
+      "id": "coords.ts#pctToPdfCoords",
+      "name": "pctToPdfCoords",
+      "kind": "function",
+      "exported": true,
+      "path": "coords.ts",
+      "startLine": 99,
+      "endLine": 120
+    },
+    {
+      "id": "fonts/font-map.ts#FontMatch",
+      "name": "FontMatch",
+      "kind": "interface",
+      "exported": true,
+      "path": "fonts/font-map.ts",
+      "startLine": 11,
+      "endLine": 19
+    },
+    {
+      "id": "fonts/font-map.ts#WEB_FONT_RULES",
+      "name": "WEB_FONT_RULES",
+      "kind": "const",
+      "exported": false,
+      "path": "fonts/font-map.ts",
+      "startLine": 21,
+      "endLine": 42
+    },
+    {
+      "id": "fonts/font-map.ts#resolveStandardFont",
+      "name": "resolveStandardFont",
+      "kind": "function",
+      "exported": true,
+      "path": "fonts/font-map.ts",
+      "startLine": 49,
+      "endLine": 69
+    },
+    {
+      "id": "fonts/font-map.ts#normaliseName",
+      "name": "normaliseName",
+      "kind": "function",
+      "exported": false,
+      "path": "fonts/font-map.ts",
+      "startLine": 72,
+      "endLine": 74
+    },
+    {
+      "id": "fonts/font-map.ts#detectStyle",
+      "name": "detectStyle",
+      "kind": "function",
+      "exported": false,
+      "path": "fonts/font-map.ts",
+      "startLine": 76,
+      "endLine": 82
+    },
+    {
+      "id": "fonts/font-map.ts#mapFont",
+      "name": "mapFont",
+      "kind": "function",
+      "exported": true,
+      "path": "fonts/font-map.ts",
+      "startLine": 84,
+      "endLine": 123
+    },
+    {
+      "id": "grid.ts#PageGrid",
+      "name": "PageGrid",
+      "kind": "interface",
+      "exported": true,
+      "path": "grid.ts",
+      "startLine": 22,
+      "endLine": 29
+    },
+    {
+      "id": "grid.ts#FormFieldRegion",
+      "name": "FormFieldRegion",
+      "kind": "interface",
+      "exported": true,
+      "path": "grid.ts",
+      "startLine": 31,
+      "endLine": 37
+    },
+    {
+      "id": "grid.ts#extractPageGrid",
+      "name": "extractPageGrid",
+      "kind": "function",
+      "exported": true,
+      "path": "grid.ts",
+      "startLine": 62,
+      "endLine": 115
+    },
+    {
+      "id": "grid.ts#snapToGrid",
+      "name": "snapToGrid",
+      "kind": "function",
+      "exported": true,
+      "path": "grid.ts",
+      "startLine": 130,
+      "endLine": 152
+    },
+    {
+      "id": "grid.ts#BASELINE_CLUSTER_PX",
+      "name": "BASELINE_CLUSTER_PX",
+      "kind": "const",
+      "exported": false,
+      "path": "grid.ts",
+      "startLine": 162,
+      "endLine": 162
+    },
+    {
+      "id": "grid.ts#COLUMN_CLUSTER_PX",
+      "name": "COLUMN_CLUSTER_PX",
+      "kind": "const",
+      "exported": false,
+      "path": "grid.ts",
+      "startLine": 167,
+      "endLine": 167
+    },
+    {
+      "id": "grid.ts#COLUMN_GAP_PX",
+      "name": "COLUMN_GAP_PX",
+      "kind": "const",
+      "exported": false,
+      "path": "grid.ts",
+      "startLine": 174,
+      "endLine": 174
+    },
+    {
+      "id": "grid.ts#clusterAndSort",
+      "name": "clusterAndSort",
+      "kind": "function",
+      "exported": false,
+      "path": "grid.ts",
+      "startLine": 181,
+      "endLine": 198
+    },
+    {
+      "id": "grid.ts#nearestWithin",
+      "name": "nearestWithin",
+      "kind": "function",
+      "exported": false,
+      "path": "grid.ts",
+      "startLine": 204,
+      "endLine": 221
+    },
+    {
+      "id": "image.ts#embedImages",
+      "name": "embedImages",
+      "kind": "function",
+      "exported": true,
+      "path": "image.ts",
+      "startLine": 10,
+      "endLine": 46
+    },
+    {
+      "id": "merge.ts#MergeResult",
+      "name": "MergeResult",
+      "kind": "interface",
+      "exported": true,
+      "path": "merge.ts",
+      "startLine": 9,
+      "endLine": 12
+    },
+    {
+      "id": "merge.ts#mergePdfs",
+      "name": "mergePdfs",
+      "kind": "function",
+      "exported": true,
+      "path": "merge.ts",
+      "startLine": 14,
+      "endLine": 33
+    },
+    {
+      "id": "pages.ts#addBlankPage",
+      "name": "addBlankPage",
+      "kind": "function",
+      "exported": true,
+      "path": "pages.ts",
+      "startLine": 14,
+      "endLine": 23
+    },
+    {
+      "id": "redact.ts#RedactResult",
+      "name": "RedactResult",
+      "kind": "interface",
+      "exported": true,
+      "path": "redact.ts",
+      "startLine": 13,
+      "endLine": 17
+    },
+    {
+      "id": "redact.ts#strToBytes",
+      "name": "strToBytes",
+      "kind": "function",
+      "exported": false,
+      "path": "redact.ts",
+      "startLine": 22,
+      "endLine": 26
+    },
+    {
+      "id": "redact.ts#inflateZlib",
+      "name": "inflateZlib",
+      "kind": "function",
+      "exported": false,
+      "path": "redact.ts",
+      "startLine": 29,
+      "endLine": 52
+    },
+    {
+      "id": "redact.ts#blankTextOps",
+      "name": "blankTextOps",
+      "kind": "function",
+      "exported": false,
+      "path": "redact.ts",
+      "startLine": 65,
+      "endLine": 110
+    },
+    {
+      "id": "redact.ts#getPageStreams",
+      "name": "getPageStreams",
+      "kind": "function",
+      "exported": false,
+      "path": "redact.ts",
+      "startLine": 118,
+      "endLine": 163
+    },
+    {
+      "id": "redact.ts#redactPdf",
+      "name": "redactPdf",
+      "kind": "function",
+      "exported": true,
+      "path": "redact.ts",
+      "startLine": 171,
+      "endLine": 234
+    },
+    {
+      "id": "save.ts#applyEditsAndSave",
+      "name": "applyEditsAndSave",
+      "kind": "function",
+      "exported": true,
+      "path": "save.ts",
+      "startLine": 12,
+      "endLine": 91
+    },
+    {
+      "id": "signature.ts#SignaturePlacementInput",
+      "name": "SignaturePlacementInput",
+      "kind": "interface",
+      "exported": true,
+      "path": "signature.ts",
+      "startLine": 26,
+      "endLine": 41
+    },
+    {
+      "id": "signature.ts#applySignatures",
+      "name": "applySignatures",
+      "kind": "function",
+      "exported": true,
+      "path": "signature.ts",
+      "startLine": 55,
+      "endLine": 105
+    },
+    {
+      "id": "signature.ts#TypedSignatureEntry",
+      "name": "TypedSignatureEntry",
+      "kind": "interface",
+      "exported": true,
+      "path": "signature.ts",
+      "startLine": 109,
+      "endLine": 120
+    },
+    {
+      "id": "signature.ts#embedTypedSignature",
+      "name": "embedTypedSignature",
+      "kind": "function",
+      "exported": true,
+      "path": "signature.ts",
+      "startLine": 126,
+      "endLine": 172
+    },
+    {
+      "id": "signature.ts#dataUrlToUint8Array",
+      "name": "dataUrlToUint8Array",
+      "kind": "function",
+      "exported": false,
+      "path": "signature.ts",
+      "startLine": 182,
+      "endLine": 196
+    },
+    {
+      "id": "split.ts#SplitResult",
+      "name": "SplitResult",
+      "kind": "interface",
+      "exported": true,
+      "path": "split.ts",
+      "startLine": 21,
+      "endLine": 23
+    },
+    {
+      "id": "split.ts#splitPdf",
+      "name": "splitPdf",
+      "kind": "function",
+      "exported": true,
+      "path": "split.ts",
+      "startLine": 41,
+      "endLine": 113
+    },
+    {
+      "id": "types.ts#ExtractedTextItem",
+      "name": "ExtractedTextItem",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 5,
+      "endLine": 23
+    },
+    {
+      "id": "types.ts#FieldData",
+      "name": "FieldData",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 25,
+      "endLine": 33
+    },
+    {
+      "id": "types.ts#EditMap",
+      "name": "EditMap",
+      "kind": "type",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 36,
+      "endLine": 36
+    },
+    {
+      "id": "types.ts#TextHighlight",
+      "name": "TextHighlight",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 41,
+      "endLine": 51
+    },
+    {
+      "id": "types.ts#StickyNote",
+      "name": "StickyNote",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 54,
+      "endLine": 61
+    },
+    {
+      "id": "types.ts#CheckAnnotation",
+      "name": "CheckAnnotation",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 64,
+      "endLine": 70
+    },
+    {
+      "id": "types.ts#Annotation",
+      "name": "Annotation",
+      "kind": "type",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 72,
+      "endLine": 72
+    },
+    {
+      "id": "types.ts#SigEntry",
+      "name": "SigEntry",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 77,
+      "endLine": 85
+    },
+    {
+      "id": "types.ts#ImageEntry",
+      "name": "ImageEntry",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 90,
+      "endLine": 98
+    },
+    {
+      "id": "types.ts#FabricTextboxExport",
+      "name": "FabricTextboxExport",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 103,
+      "endLine": 117
+    },
+    {
+      "id": "types.ts#FabricLayerRef",
+      "name": "FabricLayerRef",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 120,
+      "endLine": 122
+    },
+    {
+      "id": "types.ts#CommittedEdit",
+      "name": "CommittedEdit",
+      "kind": "interface",
+      "exported": true,
+      "path": "types.ts",
+      "startLine": 129,
+      "endLine": 138
+    }
+  ],
+  "edges": [
+    {
+      "from": "annotate.ts#<module>",
+      "to": "types.ts#Annotation",
+      "kind": "imports"
+    },
+    {
+      "from": "annotate.ts#<module>",
+      "to": "types.ts#TextHighlight",
+      "kind": "imports"
+    },
+    {
+      "from": "annotate.ts#<module>",
+      "to": "types.ts#StickyNote",
+      "kind": "imports"
+    },
+    {
+      "from": "annotate.ts#<module>",
+      "to": "types.ts#CheckAnnotation",
+      "kind": "imports"
+    },
+    {
+      "from": "annotate.ts#applyAnnotations",
+      "to": "types.ts#Annotation",
+      "kind": "references_type"
+    },
+    {
+      "from": "annotate.ts#applyAnnotations",
+      "to": "types.ts#TextHighlight",
+      "kind": "references_type"
+    },
+    {
+      "from": "annotate.ts#applyAnnotations",
+      "to": "types.ts#StickyNote",
+      "kind": "references_type"
+    },
+    {
+      "from": "annotate.ts#applyAnnotations",
+      "to": "types.ts#CheckAnnotation",
+      "kind": "references_type"
+    },
+    {
+      "from": "canvas-save.ts#<module>",
+      "to": "types.ts#FabricTextboxExport",
+      "kind": "imports"
+    },
+    {
+      "from": "canvas-save.ts#<module>",
+      "to": "fonts/font-map.ts#mapFont",
+      "kind": "imports"
+    },
+    {
+      "from": "canvas-save.ts#<module>",
+      "to": "fonts/font-map.ts#resolveStandardFont",
+      "kind": "imports"
+    },
+    {
+      "from": "canvas-save.ts#applyCanvasEditsAndSave",
+      "to": "types.ts#FabricTextboxExport",
+      "kind": "references_type"
+    },
+    {
+      "from": "canvas-save.ts#applyCanvasEditsAndSave",
+      "to": "fonts/font-map.ts#mapFont",
+      "kind": "calls"
+    },
+    {
+      "from": "canvas-save.ts#applyCanvasEditsAndSave",
+      "to": "fonts/font-map.ts#resolveStandardFont",
+      "kind": "calls"
+    },
+    {
+      "from": "canvas-save.ts#applyCanvasEditsAndSave",
+      "to": "canvas-save.ts#hexToRgb",
+      "kind": "calls"
+    },
+    {
+      "from": "compress.ts#compressPdf",
+      "to": "compress.ts#CompressResult",
+      "kind": "references_type"
+    },
+    {
+      "from": "fonts/font-map.ts#mapFont",
+      "to": "fonts/font-map.ts#FontMatch",
+      "kind": "references_type"
+    },
+    {
+      "from": "fonts/font-map.ts#mapFont",
+      "to": "fonts/font-map.ts#normaliseName",
+      "kind": "calls"
+    },
+    {
+      "from": "fonts/font-map.ts#mapFont",
+      "to": "fonts/font-map.ts#detectStyle",
+      "kind": "calls"
+    },
+    {
+      "from": "grid.ts#<module>",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "imports"
+    },
+    {
+      "from": "grid.ts#<module>",
+      "to": "coords.ts#pdfToCanvasY",
+      "kind": "imports"
+    },
+    {
+      "from": "grid.ts#<module>",
+      "to": "coords.ts#pdfToCanvasX",
+      "kind": "imports"
+    },
+    {
+      "from": "grid.ts#PageGrid",
+      "to": "grid.ts#FormFieldRegion",
+      "kind": "references_type"
+    },
+    {
+      "from": "grid.ts#extractPageGrid",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "references_type"
+    },
+    {
+      "from": "grid.ts#extractPageGrid",
+      "to": "grid.ts#PageGrid",
+      "kind": "references_type"
+    },
+    {
+      "from": "grid.ts#extractPageGrid",
+      "to": "coords.ts#pdfToCanvasY",
+      "kind": "calls"
+    },
+    {
+      "from": "grid.ts#extractPageGrid",
+      "to": "grid.ts#clusterAndSort",
+      "kind": "calls"
+    },
+    {
+      "from": "grid.ts#extractPageGrid",
+      "to": "coords.ts#pdfToCanvasX",
+      "kind": "calls"
+    },
+    {
+      "from": "grid.ts#snapToGrid",
+      "to": "grid.ts#PageGrid",
+      "kind": "references_type"
+    },
+    {
+      "from": "grid.ts#snapToGrid",
+      "to": "grid.ts#nearestWithin",
+      "kind": "calls"
+    },
+    {
+      "from": "image.ts#<module>",
+      "to": "types.ts#ImageEntry",
+      "kind": "imports"
+    },
+    {
+      "from": "image.ts#<module>",
+      "to": "coords.ts#pctToPdfCoords",
+      "kind": "imports"
+    },
+    {
+      "from": "image.ts#embedImages",
+      "to": "types.ts#ImageEntry",
+      "kind": "references_type"
+    },
+    {
+      "from": "image.ts#embedImages",
+      "to": "coords.ts#pctToPdfCoords",
+      "kind": "calls"
+    },
+    {
+      "from": "merge.ts#mergePdfs",
+      "to": "merge.ts#MergeResult",
+      "kind": "references_type"
+    },
+    {
+      "from": "redact.ts#redactPdf",
+      "to": "redact.ts#RedactResult",
+      "kind": "references_type"
+    },
+    {
+      "from": "redact.ts#redactPdf",
+      "to": "redact.ts#getPageStreams",
+      "kind": "calls"
+    },
+    {
+      "from": "redact.ts#redactPdf",
+      "to": "redact.ts#inflateZlib",
+      "kind": "calls"
+    },
+    {
+      "from": "redact.ts#redactPdf",
+      "to": "redact.ts#blankTextOps",
+      "kind": "calls"
+    },
+    {
+      "from": "redact.ts#redactPdf",
+      "to": "redact.ts#strToBytes",
+      "kind": "calls"
+    },
+    {
+      "from": "save.ts#<module>",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "imports"
+    },
+    {
+      "from": "save.ts#<module>",
+      "to": "types.ts#EditMap",
+      "kind": "imports"
+    },
+    {
+      "from": "save.ts#<module>",
+      "to": "fonts/font-map.ts#mapFont",
+      "kind": "imports"
+    },
+    {
+      "from": "save.ts#<module>",
+      "to": "fonts/font-map.ts#resolveStandardFont",
+      "kind": "imports"
+    },
+    {
+      "from": "save.ts#applyEditsAndSave",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "references_type"
+    },
+    {
+      "from": "save.ts#applyEditsAndSave",
+      "to": "types.ts#EditMap",
+      "kind": "references_type"
+    },
+    {
+      "from": "save.ts#applyEditsAndSave",
+      "to": "fonts/font-map.ts#mapFont",
+      "kind": "calls"
+    },
+    {
+      "from": "save.ts#applyEditsAndSave",
+      "to": "fonts/font-map.ts#resolveStandardFont",
+      "kind": "calls"
+    },
+    {
+      "from": "signature.ts#<module>",
+      "to": "coords.ts#pctToPdfCoords",
+      "kind": "imports"
+    },
+    {
+      "from": "signature.ts#applySignatures",
+      "to": "signature.ts#SignaturePlacementInput",
+      "kind": "references_type"
+    },
+    {
+      "from": "signature.ts#applySignatures",
+      "to": "signature.ts#dataUrlToUint8Array",
+      "kind": "calls"
+    },
+    {
+      "from": "signature.ts#applySignatures",
+      "to": "coords.ts#pctToPdfCoords",
+      "kind": "calls"
+    },
+    {
+      "from": "signature.ts#embedTypedSignature",
+      "to": "signature.ts#TypedSignatureEntry",
+      "kind": "references_type"
+    },
+    {
+      "from": "split.ts#splitPdf",
+      "to": "split.ts#SplitResult",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#EditMap",
+      "to": "types.ts#FieldData",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#Annotation",
+      "to": "types.ts#TextHighlight",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#Annotation",
+      "to": "types.ts#StickyNote",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#Annotation",
+      "to": "types.ts#CheckAnnotation",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#FabricTextboxExport",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#FabricLayerRef",
+      "to": "types.ts#FabricTextboxExport",
+      "kind": "references_type"
+    },
+    {
+      "from": "types.ts#CommittedEdit",
+      "to": "types.ts#ExtractedTextItem",
+      "kind": "references_type"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "coord_system_percent_to_pdf",
+      "type": "term_def",
+      "label": "Percentage-based coordinate system",
+      "statement": "Coordinates are stored as % of page dimensions (0–100) for scale-independence. Conversion to PDF user units (points) happens at annotation time by multiplying percentage by page dimension and dividing by 100.",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 5,
+            "endLine": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_y_origin_flip",
+      "type": "style_pattern",
+      "label": "Y-coordinate flip from top to bottom-left",
+      "rule": "yPct is measured from top of page (0 = top); PDF Y origin is bottom-left. Conversion formula: `y = pageH - (yPct / 100) * pageH - height` to account for both origin shift and element height.",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 42,
+            "endLine": 44
+          }
+        },
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 56,
+            "endLine": 58
+          }
+        },
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 81,
+            "endLine": 81
+          }
+        }
+      ]
+    },
+    {
+      "id": "object_streams_false_policy",
+      "type": "policy_rule",
+      "label": "Disable object streams on PDF save",
+      "statement": "useObjectStreams: false must be set on all PDF saves to prevent font regression.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 8,
+            "endLine": 8
+          }
+        },
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 98,
+            "endLine": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": "sticky_note_fixed_size",
+      "type": "style_pattern",
+      "label": "Sticky note fixed proportional dimensions",
+      "rule": "Sticky notes use fixed size: 15% of page width and 9% of page height, independent of text length.",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 51,
+            "endLine": 54
+          }
+        }
+      ]
+    },
+    {
+      "id": "checkmark_stroke_geometry",
+      "type": "style_pattern",
+      "label": "Checkmark drawn as two-stroke V shape",
+      "rule": "Checkmark (✓) rendered with two lines: (1) short down-left stroke from (cx, cy + sz*0.35) to (cx + sz*0.38, cy); (2) long up-right stroke from (cx + sz*0.38, cy) to (cx + sz, cy + sz*0.75). Both strokes use thickness 2.2.",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 84,
+            "endLine": 95
+          }
+        }
+      ]
+    },
+    {
+      "id": "sticky_font_lazy_embed",
+      "type": "pattern",
+      "label": "Font embedding only when needed",
+      "match_rule": "Helvetica font is embedded once and only if at least one 'sticky-note' annotation exists in the batch; otherwise stickyFont is null.",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 28,
+            "endLine": 29
+          }
+        }
+      ]
+    },
+    {
+      "id": "sticky_text_truncation",
+      "type": "policy_rule",
+      "label": "Sticky note text truncation limit",
+      "statement": "Sticky note text is truncated to 120 characters maximum before rendering.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "annotate.ts",
+          "range": {
+            "startLine": 68,
+            "endLine": 68
+          }
+        }
+      ]
+    },
+    {
+      "id": "canvas_to_pdf_coordinate_transform",
+      "type": "term_def",
+      "label": "Canvas-to-PDF coordinate transform",
+      "statement": "Canvas uses top-left origin; PDF uses bottom-left origin. For a block at canvas (top, left, width, height) on a page of height pageH, the PDF equivalent is: coverX = left / viewportScale, coverY = pageH - (top + height) / viewportScale, coverW = width / viewportScale, coverH = height / viewportScale.",
+      "surfaces": [
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 42,
+            "endLine": 48
+          }
+        }
+      ]
+    },
+    {
+      "id": "anchor_item_pdf_space",
+      "type": "term_def",
+      "label": "Anchor item PDF space coordinates",
+      "statement": "The anchor item's pdfX and pdfY are already in PDF coordinate space and require no reverse-computation; they are used directly as the draw origin for text placement.",
+      "surfaces": [
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 3,
+            "endLine": 5
+          }
+        },
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 74,
+            "endLine": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "white_mask_strategy",
+      "type": "policy_rule",
+      "label": "White rectangle mask for text replacement",
+      "statement": "Before drawing replacement text, apply a white opaque rectangle (1 unit oversized on all sides) at the original block bounds to mask/cover the underlying PDF content.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 3,
+            "endLine": 5
+          }
+        },
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 50,
+            "endLine": 62
+          }
+        }
+      ]
+    },
+    {
+      "id": "font_cache_dedup",
+      "type": "policy_rule",
+      "label": "Font embedding deduplication",
+      "statement": "Deduplicate font embeddings across all canvas edits by caching font objects by name, avoiding redundant embedFont calls for the same font used in multiple textboxes.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 35,
+            "endLine": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_no_object_streams",
+      "type": "policy_rule",
+      "label": "PDF save without object streams",
+      "statement": "All PDF saves must use `useObjectStreams: false` to ensure compatibility and predictable output structure.",
+      "surface_type": "code",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "canvas-save.ts",
+          "range": {
+            "startLine": 82,
+            "endLine": 82
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_compression_scope",
+      "type": "policy_rule",
+      "label": "Client-side PDF compression scope and limitations",
+      "statement": "PDF compression removes redundant cross-reference data and re-serialises the PDF (10–30% reduction on unoptimised files), but does NOT recompress embedded images (requires server-side tooling). UI must be honest about this limitation.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "compress.ts",
+          "range": {
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_object_streams",
+      "type": "policy_rule",
+      "label": "PDF save uses useObjectStreams: true",
+      "statement": "All PDF saves must use `useObjectStreams: true` to enable object stream compression for size reduction.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "compress.ts",
+          "range": {
+            "startLine": 27,
+            "endLine": 27
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_metadata_preservation",
+      "type": "policy_rule",
+      "label": "PDF metadata update disabled during load",
+      "statement": "PDF documents are loaded with `updateMetadata: false` to preserve original metadata and avoid unintended side effects.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "compress.ts",
+          "range": {
+            "startLine": 23,
+            "endLine": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "coord_systems_overview",
+      "type": "term_def",
+      "label": "Three coordinate systems (PDF space, Canvas space, Percentage space)",
+      "statement": "PDF space: origin BOTTOM-LEFT, Y increases upward, units in PDF user units (1 pt = 1/72 inch), used for pdf-lib calls. Canvas/CSS space: origin TOP-LEFT, Y increases downward, units in CSS pixels scaled by zoom, used for overlay positioning. Percentage space: 0–100 representing page dimension fractions, scale-independent, used by SignTool UI.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "coords.ts",
+          "range": {
+            "startLine": 1,
+            "endLine": 33
+          }
+        }
+      ]
+    },
+    {
+      "id": "y_axis_flip_formula",
+      "type": "policy_rule",
+      "label": "Y-axis conversion formula accounting for element height and page origin",
+      "statement": "All Y-axis conversions between Canvas (top-left origin, Y↓) and PDF (bottom-left origin, Y↑) must apply: canvasY = (pageHeightPdf - pdfY - elementHeightPdf) * scale. When converting a bare point (not a sized element), elementHeightCanvas must be 0. pdf-lib's drawImage anchors at bottom-left, requiring this adjustment.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "coords.ts",
+          "range": {
+            "startLine": 24,
+            "endLine": 33
+          }
+        }
+      ]
+    },
+    {
+      "id": "percentage_center_to_corner",
+      "type": "policy_rule",
+      "label": "Percentage UI coords represent visual centre; convert to pdf-lib bottom-left anchor",
+      "statement": "SignTool UI stores xPct/yPct as centre coordinates (rendered with transform: translate(-50%, -50%)). pdf-lib drawImage() anchors at bottom-left. Conversion must: (1) compute centre in PDF units, (2) shift by half dimensions to get bottom-left corner: x = centrePdfX - widthPdf/2; y = pageHeightPdf - centrePdfY_fromTop - heightPdf/2.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "coords.ts",
+          "range": {
+            "startLine": 79,
+            "endLine": 92
+          }
+        }
+      ]
+    },
+    {
+      "id": "metric_compatible_fallbacks",
+      "type": "policy_rule",
+      "label": "Metric-compatible font substitution via CSS variables",
+      "statement": "Arimo/Tinos/Cousine are loaded via next/font CSS vars and are metric-compatible with Arial/Times/Courier respectively, enabling safe visual substitution in the editor overlay while preserving PDF structure.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 24,
+            "endLine": 24
+          }
+        }
+      ]
+    },
+    {
+      "id": "bold_italic_preservation_gap",
+      "type": "deferred",
+      "label": "Bold/italic not preserved in PDF output",
+      "statement": "Bold/italic styling is shown in the editor overlay but not persisted when saving the PDF. Tracked in docs/lessons-learned.md.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 7,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "heavily_subsetted_fallback",
+      "type": "deferred",
+      "label": "Heavily subsetted custom fonts fall back to Arial",
+      "statement": "Custom corporate fonts that are heavily subsetted cannot be reliably mapped and fall back to Arial. Tracked in docs/lessons-learned.md.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 9,
+            "endLine": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "oblique_vs_italic_family_rule",
+      "type": "policy_rule",
+      "label": "Helvetica/Courier use Oblique; Times uses Italic",
+      "statement": "When applying italic styling to PDF-lib standard fonts: Helvetica and Courier families use the 'Oblique' suffix, while Times family uses 'Italic' suffix.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 47,
+            "endLine": 48
+          }
+        }
+      ]
+    },
+    {
+      "id": "subset_prefix_normalization",
+      "type": "pattern",
+      "label": "PDF font subset prefix stripping",
+      "match_rule": "^[A-Z]{6}\\+",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 62,
+            "endLine": 62
+          }
+        }
+      ]
+    },
+    {
+      "id": "font_coverage_confidence",
+      "type": "term_def",
+      "label": "Font match confidence level",
+      "statement": "A FontMatch has confidence 'high' when matched against WEB_FONT_RULES, or confidence 'fallback' when no rule matched and Arial/Helvetica is used as default.",
+      "surfaces": [
+        {
+          "path": "fonts/font-map.ts",
+          "range": {
+            "startLine": 16,
+            "endLine": 16
+          }
+        }
+      ]
+    },
+    {
+      "id": "canvas_space_invariant",
+      "type": "policy_rule",
+      "label": "All PageGrid coordinates are in canvas space (CSS pixels, top-left origin)",
+      "statement": "All coordinates returned by extractPageGrid and used by snapToGrid are in CANVAS space (CSS pixels, top-left origin) without further conversion needed by the UI.",
+      "surface_type": "inline_doc",
+      "scope": "module",
+      "surfaces": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 5,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "baseline_snap_via_top_edge",
+      "type": "policy_rule",
+      "label": "Baselines use glyph top edge instead of calculated baseline position",
+      "statement": "For baseline snapping, use the raw canvas Y (top edge of the glyph box) rather than computing the true baseline ~80% below, because clustering handles variation sufficiently and avoids requiring per-glyph descent data.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 47,
+            "endLine": 51
+          }
+        }
+      ]
+    },
+    {
+      "id": "column_start_definition",
+      "type": "term_def",
+      "label": "column-start",
+      "statement": "A text item is a column-start if there is no other item whose right edge falls within COLUMN_GAP_PX pixels to the item's left; these left-edge X values become column markers after deduplication.",
+      "surfaces": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 53,
+            "endLine": 56
+          }
+        }
+      ]
+    },
+    {
+      "id": "acroform_deferred",
+      "type": "deferred",
+      "label": "AcroForm field detection not yet implemented",
+      "statement": "AcroForm field detection is intentionally left for a later sprint — formFields is always an empty array for now (see task spec note).",
+      "surface_type": "inline_doc",
+      "surfaces": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 10,
+            "endLine": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "baseline_cluster_tolerance",
+      "type": "style_pattern",
+      "label": "Sub-pixel baseline clustering tolerance",
+      "rule": "BASELINE_CLUSTER_PX = 4px; values within 4px are merged into the same baseline to tolerate sub-pixel rendering differences between adjacent words on a line.",
+      "examples": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 144,
+            "endLine": 146
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "grid.ts"
+        }
+      ]
+    },
+    {
+      "id": "column_cluster_tolerance",
+      "type": "style_pattern",
+      "label": "Column left-edge clustering tolerance",
+      "rule": "COLUMN_CLUSTER_PX = 6px; column left edges within 6px are deduplicated into a single column marker.",
+      "examples": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 149,
+            "endLine": 151
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "grid.ts"
+        }
+      ]
+    },
+    {
+      "id": "column_gap_threshold",
+      "type": "style_pattern",
+      "label": "Inline flow gap threshold for column detection",
+      "rule": "COLUMN_GAP_PX = 20px; items are considered part of the same inline flow (and not independent column starts) if their right edge is within 20px of the next item's left edge.",
+      "examples": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 154,
+            "endLine": 159
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "grid.ts"
+        }
+      ]
+    },
+    {
+      "id": "snap_threshold_default",
+      "type": "policy_rule",
+      "label": "Default snap threshold is 12px",
+      "statement": "The default threshold for snapToGrid is 12 CSS pixels; this defines the maximum distance to snap a user placement to the nearest grid line.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "grid.ts",
+          "range": {
+            "startLine": 130,
+            "endLine": 130
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_policy",
+      "type": "policy_rule",
+      "label": "Disable object streams on PDF save",
+      "statement": "All PDF saves must use useObjectStreams: false to ensure compatibility",
+      "surface_type": "code",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "image.ts",
+          "range": {
+            "startLine": 43,
+            "endLine": 43
+          }
+        }
+      ]
+    },
+    {
+      "id": "base64_dataurl_decode",
+      "type": "pattern",
+      "label": "Base64 data URL decoding pattern",
+      "match_rule": "data:[mime/type];base64,[BASE64_STRING] split on comma, take [1], decode with atomb(), convert to Uint8Array via charCodeAt",
+      "surfaces": [
+        {
+          "path": "image.ts",
+          "range": {
+            "startLine": 23,
+            "endLine": 24
+          }
+        }
+      ]
+    },
+    {
+      "id": "image_embed_by_mime",
+      "type": "pattern",
+      "label": "Image embedding conditional on MIME type",
+      "match_rule": "mimeType === 'png' ? embedPng : embedJpg",
+      "surfaces": [
+        {
+          "path": "image.ts",
+          "range": {
+            "startLine": 26,
+            "endLine": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "useObjectStreams_false_policy",
+      "type": "policy_rule",
+      "label": "Disable useObjectStreams on pdf save",
+      "statement": "All pdfDoc.save() invocations across the project must use useObjectStreams: false. Compressed object streams cause some PDF viewers to fall back to a default sans-serif for unedited text items, producing visible rendering regressions.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 86,
+            "endLine": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_object_streams_disabled",
+      "type": "policy_rule",
+      "label": "Disable object streams on all PDF saves",
+      "statement": "useObjectStreams: false must be set on all pdfDoc.save() calls to ensure compatibility with downstream PDF processing",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "pages.ts",
+          "range": {
+            "startLine": 21,
+            "endLine": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "a4_page_insertion",
+      "type": "term_def",
+      "label": "afterPageIndex parameter semantics",
+      "statement": "afterPageIndex is 0-based and the insertion point is afterPageIndex + 1; passing afterPageIndex = pageCount - 1 appends at the end",
+      "surfaces": [
+        {
+          "path": "pages.ts",
+          "range": {
+            "startLine": 9,
+            "endLine": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_redaction_strategy",
+      "type": "policy_rule",
+      "label": "PDF redaction via content stream surgery with decompression",
+      "statement": "Redaction must decompress FlateDecode streams, blank matching text operators (Tj/TJ/'\" ), and write back as uncompressed streams. This removes text from the PDF data layer, not just visually.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 1,
+            "endLine": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_no_object_streams",
+      "type": "policy_rule",
+      "label": "PDF save must disable object streams",
+      "statement": "All PDF saves must use useObjectStreams: false to ensure compatibility and predictable stream handling.",
+      "surface_type": "code",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 278,
+            "endLine": 278
+          }
+        }
+      ]
+    },
+    {
+      "id": "text_replacement_space_fill",
+      "type": "style_pattern",
+      "label": "Matched text blanked with space characters",
+      "rule": "When redacting matched text in Tj/TJ operators, replace each non-space character with a space (via `/[^ ]/g` substitution) to preserve glyph-advance metrics.",
+      "examples": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 87,
+            "endLine": 92
+          }
+        },
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 103,
+            "endLine": 113
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "redact.ts"
+        }
+      ]
+    },
+    {
+      "id": "pdf_text_operator_patterns",
+      "type": "pattern",
+      "label": "PDF text operators for redaction matching",
+      "match_rule": "Regex patterns matching PDF text show operators: Tj (literal string), TJ (array of strings/numbers), ' (single-quote shorthand), \" (double-quote shorthand). Patterns: `\\(([^\\\\)]*(?:\\\\.[^\\\\)]*)*)\\)\\s*(Tj|'|\")` for literal strings; `\\[([^\\]]*)\\]\\s*TJ` for arrays.",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 82,
+            "endLine": 117
+          }
+        }
+      ]
+    },
+    {
+      "id": "latin1_encoding_strategy",
+      "type": "policy_rule",
+      "label": "Latin-1 encoding for PDF content stream text",
+      "statement": "PDF content streams are decoded/encoded using latin-1 (ISO-8859-1), not UTF-8. TextDecoder('latin1') for decompressed bytes; custom strToBytes function for re-encoding to preserve byte-for-byte character mapping.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 20,
+            "endLine": 25
+          }
+        },
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 236,
+            "endLine": 237
+          }
+        }
+      ]
+    },
+    {
+      "id": "case_insensitive_text_matching",
+      "type": "policy_rule",
+      "label": "Target text matching is case-insensitive",
+      "statement": "Text redaction searches use toLowerCase() on both target and content to perform case-insensitive matching, ensuring 'Hello', 'hello', 'HELLO' are all found and blanked.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 77,
+            "endLine": 78
+          }
+        },
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 88,
+            "endLine": 89
+          }
+        },
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 107,
+            "endLine": 108
+          }
+        }
+      ]
+    },
+    {
+      "id": "skip_unsupported_filters",
+      "type": "policy_rule",
+      "label": "Skip streams with unsupported filters or decompression failures",
+      "statement": "Streams with unsupported compression filters (JBIG2, CCITTFax, etc.) or failed decompression are silently skipped; no redaction is performed on such streams.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 220,
+            "endLine": 234
+          }
+        }
+      ]
+    },
+    {
+      "id": "uncompressed_stream_output",
+      "type": "policy_rule",
+      "label": "Redacted streams written back uncompressed",
+      "statement": "After redaction, modified content streams are written back without compression. Filter and DecodeParms dictionary entries are deleted, and Length is set to the new uncompressed byte count.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "redact.ts",
+          "range": {
+            "startLine": 241,
+            "endLine": 252
+          }
+        }
+      ]
+    },
+    {
+      "id": "mask_rectangle_sizing",
+      "type": "style_pattern",
+      "label": "Mask rectangle descender and ascender proportional to font size",
+      "rule": "descenderDepth = max(2, fs × 0.25); ascenderHeight = fs × 0.85; mask height = ascenderHeight + descenderDepth + 2",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 52,
+            "endLine": 61
+          }
+        }
+      ]
+    },
+    {
+      "id": "useobjectstreams_false_policy",
+      "type": "policy_rule",
+      "label": "Disable useObjectStreams on all PDF saves",
+      "statement": "pdfDoc.save({ useObjectStreams: false }) — prevents pdf-lib from repacking font resource cross-references into compressed object streams, which causes some PDF viewers to fall back to a default sans-serif for unedited text items.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 84,
+            "endLine": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "font_cache_deduplication",
+      "type": "term_def",
+      "label": "Font cache deduplication strategy",
+      "statement": "One embedded font per unique standard font name; fontCache is a Map keyed by standardFontName to avoid re-embedding identical fonts across multiple edits.",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 21,
+            "endLine": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "bold_italic_override_precedence",
+      "type": "term_def",
+      "label": "Bold/italic override precedence",
+      "statement": "effectiveBold = fieldData.bold ?? fontMatch.bold; effectiveItalic = fieldData.italic ?? fontMatch.italic. User toolbar overrides take precedence over auto-detected values from original font name.",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 42,
+            "endLine": 46
+          }
+        }
+      ]
+    },
+    {
+      "id": "hex_color_parsing",
+      "type": "pattern",
+      "label": "Hex color format in fieldData.color",
+      "match_rule": "^#[0-9a-fA-F]{6}$",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 68,
+            "endLine": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "text_replacement_overflow_guard",
+      "type": "policy_rule",
+      "label": "Soft guard on replacement text width",
+      "statement": "maxWidth: originalWidth × 3 — generous but bounded; longer replacements will overflow but won't corrupt other text.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "save.ts",
+          "range": {
+            "startLine": 78,
+            "endLine": 83
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_useobjectstreams_false",
+      "type": "policy_rule",
+      "label": "Disable useObjectStreams on PDF saves to prevent font corruption",
+      "statement": "All PDFDocument.save() calls must use { useObjectStreams: false } to prevent font cross-reference corruption in PDF viewers that misparse PDF 1.5 object streams.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 99,
+            "endLine": 104
+          }
+        },
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 165,
+            "endLine": 166
+          }
+        }
+      ]
+    },
+    {
+      "id": "percentage_coordinate_system",
+      "type": "term_def",
+      "label": "Percentage-based placement coordinates",
+      "statement": "Placement coordinates from the UI are percentages of page dimensions (0–100). This makes them scale-independent and independent of zoom factor. The single source of truth for converting percentage coordinates to PDF user-unit coordinates is pctToPdfCoords in coords.ts.",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 11,
+            "endLine": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_coordinate_origin",
+      "type": "term_def",
+      "label": "PDF user-unit coordinate system",
+      "statement": "pdf-lib drawImage() expects PDF user-unit coordinates with bottom-left origin. Placement coordinates (percentage-based, centre-origin) must be converted via pctToPdfCoords.",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 11,
+            "endLine": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "1indexed_page_numbering",
+      "type": "pattern",
+      "label": "1-indexed page numbering from UI",
+      "match_rule": "pageNum must be decremented by 1 before array access; error messages must reference the 1-indexed value.",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 67,
+            "endLine": 76
+          }
+        },
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 138,
+            "endLine": 147
+          }
+        }
+      ]
+    },
+    {
+      "id": "typed_signature_default_width",
+      "type": "policy_rule",
+      "label": "Typed signature default width is 30% of page width",
+      "statement": "When widthPct is not specified in TypedSignatureEntry, default to 30% of page width for font sizing calculations.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 120,
+            "endLine": 120
+          }
+        },
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 151,
+            "endLine": 151
+          }
+        }
+      ]
+    },
+    {
+      "id": "typed_signature_font_range",
+      "type": "policy_rule",
+      "label": "Typed signature font size range",
+      "statement": "Font size for typed signatures starts at 48pt and shrinks by 2pt increments until text fits target width, with a floor of 8pt.",
+      "surface_type": "code",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 154,
+            "endLine": 155
+          }
+        }
+      ]
+    },
+    {
+      "id": "dataurl_decoding_dual_env",
+      "type": "policy_rule",
+      "label": "Data URL decoding supports browser and Node.js",
+      "statement": "dataUrlToUint8Array must handle both browser (atob) and Node.js (Buffer) environments to support test runners.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "signature.ts",
+          "range": {
+            "startLine": 171,
+            "endLine": 175
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_save_object_streams_policy",
+      "type": "policy_rule",
+      "label": "Always disable useObjectStreams on PDF saves",
+      "statement": "All PDFDocument.save() calls must use { useObjectStreams: false } to ensure broad compatibility and consistent output formatting across split operations.",
+      "surface_type": "inline_doc",
+      "scope": "file",
+      "surfaces": [
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 1,
+            "endLine": 10
+          }
+        },
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 92,
+            "endLine": 92
+          }
+        },
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 109,
+            "endLine": 109
+          }
+        }
+      ]
+    },
+    {
+      "id": "split_mode_enum",
+      "type": "pattern",
+      "label": "Split mode literal union",
+      "match_rule": "'all-pages' | 'range'",
+      "surfaces": [
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 36,
+            "endLine": 36
+          }
+        }
+      ]
+    },
+    {
+      "id": "one_indexed_page_ranges",
+      "type": "term_def",
+      "label": "Page range indexing convention",
+      "statement": "All user-facing page indices in range { start, end } are 1-indexed and inclusive on both ends. Internally converted to 0-indexed arrays for copyPages().",
+      "surfaces": [
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 30,
+            "endLine": 31
+          }
+        },
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 57,
+            "endLine": 57
+          }
+        }
+      ]
+    },
+    {
+      "id": "consistency_with_merge_pattern",
+      "type": "style_pattern",
+      "label": "PDFDocument.create() + copyPages() consistency",
+      "rule": "Use PDFDocument.create() followed by copyPages() + addPage() loop pattern for all PDF transformations to maintain consistency with merge.ts utility.",
+      "surfaces": [
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 3,
+            "endLine": 10
+          }
+        },
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 86,
+            "endLine": 91
+          }
+        },
+        {
+          "path": "split.ts",
+          "range": {
+            "startLine": 103,
+            "endLine": 108
+          }
+        }
+      ]
+    },
+    {
+      "id": "pdf_coordinate_space",
+      "type": "term_def",
+      "label": "PDF coordinate space",
+      "statement": "Bottom-left origin coordinate system used by pdf-lib for save operations. Contrast with canvas coordinate space (top-left origin) used for overlay positioning.",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 10,
+            "endLine": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "canvas_coordinate_space",
+      "type": "term_def",
+      "label": "Canvas coordinate space",
+      "statement": "Top-left origin coordinate system used for overlay positioning and Fabric canvas rendering. Contrast with PDF coordinate space (bottom-left origin).",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 15,
+            "endLine": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "text_item_id_stable_key",
+      "type": "pattern",
+      "label": "Text item ID stable key format",
+      "match_rule": "^p\\d+_\\d+$",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 7,
+            "endLine": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "annotation_coords_percent",
+      "type": "style_pattern",
+      "label": "Annotation coordinates as page percentage",
+      "rule": "All annotation types (TextHighlight, StickyNote, CheckAnnotation) use xPct/yPct normalized to 0–100 as % of page dimensions, with origin at top-left.",
+      "examples": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 42,
+            "endLine": 49
+          }
+        },
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 52,
+            "endLine": 58
+          }
+        },
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 61,
+            "endLine": 66
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "types.ts"
+        }
+      ]
+    },
+    {
+      "id": "anchor_item_term",
+      "type": "term_def",
+      "label": "Anchor item",
+      "statement": "An ExtractedTextItem whose pdfX/pdfY coordinates are used as the draw origin for a replacement or canvas text block placement. The reference point for text positioning in PDF space.",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 88,
+            "endLine": 88
+          }
+        },
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 119,
+            "endLine": 119
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabric_textbox_canvas_scale",
+      "type": "style_pattern",
+      "label": "Fabric textbox fontSize canvas-to-PDF conversion",
+      "rule": "fontSize stored in canvas pixels; must be divided by scale factor to convert to PDF points for save.",
+      "examples": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 95,
+            "endLine": 95
+          }
+        },
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 114,
+            "endLine": 114
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "types.ts"
+        }
+      ]
+    },
+    {
+      "id": "committed_edit_unmount_fallback",
+      "type": "policy_rule",
+      "label": "Committed edits persist across tool switch",
+      "statement": "CommittedEdit mirrors FabricTextboxExport structure to enable use as download fallback when CanvasTextLayer is unmounted (edit tool becomes inactive). Allows edit recovery without active layer ref.",
+      "surface_type": "inline_doc",
+      "scope": "project",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 107,
+            "endLine": 111
+          }
+        }
+      ]
+    },
+    {
+      "id": "image_center_coords",
+      "type": "style_pattern",
+      "label": "Image placement uses CENTER point",
+      "rule": "ImageEntry xPct/yPct specify the CENTER of the image bounding box (0–100 as % of page), not top-left.",
+      "examples": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 103,
+            "endLine": 103
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "types.ts"
+        }
+      ]
+    },
+    {
+      "id": "signature_entry_modal_union",
+      "type": "style_pattern",
+      "label": "Signature entry text/drawing modal union",
+      "rule": "SigEntry has optional text and optional drawingDataUrl; exactly one should be populated at render time (typed vs. hand-drawn signature).",
+      "examples": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 81,
+            "endLine": 85
+          }
+        }
+      ],
+      "surfaces": [
+        {
+          "path": "types.ts"
+        }
+      ]
+    },
+    {
+      "id": "highlight_color_index",
+      "type": "pattern",
+      "label": "Highlight color index mapping",
+      "match_rule": "colorIndex ∈ {0, 1, 2} → {yellow, green, pink}",
+      "surfaces": [
+        {
+          "path": "types.ts",
+          "range": {
+            "startLine": 43,
+            "endLine": 43
+          }
+        }
+      ]
+    }
+  ]
+}
